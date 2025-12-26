@@ -23,7 +23,7 @@ else:
     exit(0)
 print(pot_price)
 product_info = soup.find("span",id="productTitle").text
-product_link = "https://www.amazon.com/dp/B075CYMYK6"
+product_link = "https://www.amazon.in/Instant-Pot-Duo-Mini-Programmable/dp/B06Y1YD5W7/ref=sr_1_4?nsdOptOutParam=true&sr=8-4"
 target_price = 10000.00
 product_info = " ".join(product_info.split())
 print(product_info)
